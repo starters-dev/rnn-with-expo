@@ -3,9 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
+    "android": "yarn android:adb && npx react-native run-android",
+    "android:release": "yarn android --variant release",
+    "android:adb": "adb reverse tcp:8081 tcp:8081",
+    "ios": "npx react-native run-ios",
+    "ios:release": "yarn ios --configuration Release",
+    "ios:pods": "npx pod-install",
+    "ios:pods:upd": "cd ios && pod install --repo-update && cd ..",
+    "start": "npx react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
