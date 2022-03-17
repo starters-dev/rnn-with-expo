@@ -11,6 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5346009859D98CE69E956AA4 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE6A6BD4AE79A83C3470A9 /* ExpoModulesProvider.swift */; };
+		580AF9C135DF6B13417A67C5 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F2A8A0E97CAE6350EE2AA /* ExpoModulesProvider.swift */; };
 		6172F2D35A4C3AA820D92908 /* libPods-RNNWithExpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-RNNWithExpo.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-RNNWithExpo-RNNWithExpoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-RNNWithExpo-RNNWithExpoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -37,9 +39,11 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNNWithExpo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNNWithExpo/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-RNNWithExpo-RNNWithExpoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNWithExpo-RNNWithExpoTests.release.xcconfig"; path = "Target Support Files/Pods-RNNWithExpo-RNNWithExpoTests/Pods-RNNWithExpo-RNNWithExpoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EAE6A6BD4AE79A83C3470A9 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-RNNWithExpo-RNNWithExpoTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-RNNWithExpo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNWithExpo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-RNNWithExpo-RNNWithExpoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNWithExpo-RNNWithExpoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNNWithExpo-RNNWithExpoTests/Pods-RNNWithExpo-RNNWithExpoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNNWithExpo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		998F2A8A0E97CAE6350EE2AA /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-RNNWithExpo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-RNNWithExpo-RNNWithExpoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNWithExpo-RNNWithExpoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-RNNWithExpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNWithExpo.debug.xcconfig"; path = "Target Support Files/Pods-RNNWithExpo/Pods-RNNWithExpo.debug.xcconfig"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-RNNWithExpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNWithExpo.release.xcconfig"; path = "Target Support Files/Pods-RNNWithExpo/Pods-RNNWithExpo.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		438725F60A0DBA33DD67090F /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				E65A2AF28A5573A6F55DFD9C /* RNNWithExpo */,
+				6EF4E72C162233BC460A53C7 /* RNNWithExpoTests */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		6EF4E72C162233BC460A53C7 /* RNNWithExpoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE6A6BD4AE79A83C3470A9 /* ExpoModulesProvider.swift */,
+			);
+			name = RNNWithExpoTests;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +143,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				438725F60A0DBA33DD67090F /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -145,8 +167,15 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-RNNWithExpo-RNNWithExpoTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-RNNWithExpo-RNNWithExpoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E65A2AF28A5573A6F55DFD9C /* RNNWithExpo */ = {
+			isa = PBXGroup;
+			children = (
+				998F2A8A0E97CAE6350EE2AA /* ExpoModulesProvider.swift */,
+			);
+			name = RNNWithExpo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* RNNWithExpoTests.m in Sources */,
+				5346009859D98CE69E956AA4 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +443,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				580AF9C135DF6B13417A67C5 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AH8NJ64XY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNNWithExpo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AH8NJ64XY;
 				INFOPLIST_FILE = RNNWithExpo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
