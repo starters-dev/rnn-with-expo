@@ -10,8 +10,10 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "expo": "^44.0.6",
     "react": "17.0.2",
-    "react-native": "0.67.3"
+    "react-native": "0.67.3",
+    "react-native-navigation": "^7.26.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
