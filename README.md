@@ -3,7 +3,7 @@
 ### Usage
 
 ```bash
-> git clone https://github.com/kanzitelli/rnn-with-expo.git App && cd App
+> git clone https://github.com/starters-dev/rnn-with-expo.git App && cd App
 > yarn && yarn ios:pods
 
 > yarn ios
