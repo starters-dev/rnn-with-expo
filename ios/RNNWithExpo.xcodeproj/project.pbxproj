@@ -519,6 +519,7 @@
 				DEVELOPMENT_TEAM = 3AH8NJ64XY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNNWithExpo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,6 +546,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3AH8NJ64XY;
 				INFOPLIST_FILE = RNNWithExpo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
