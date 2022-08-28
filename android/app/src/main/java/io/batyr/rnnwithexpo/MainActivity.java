@@ -1,4 +1,4 @@
-package io.batyr.rnn-with-expo;
+package io.batyr.rnnwithexpo;
 
 import com.reactnativenavigation.NavigationActivity;
 import com.facebook.react.ReactActivityDelegate;

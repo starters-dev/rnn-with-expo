@@ -1,4 +1,4 @@
-package io.batyr.rnn-with-expo;
+package io.batyr.rnnwithexpo;
 
 import android.content.res.Configuration;
 import expo.modules.ApplicationLifecycleDispatcher;
@@ -14,7 +14,7 @@ import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.config.ReactFeatureFlags;
 import com.facebook.soloader.SoLoader;
-import io.batyr.rnn-with-expo.newarchitecture.MainApplicationReactNativeHost;
+import io.batyr.rnnwithexpo.newarchitecture.MainApplicationReactNativeHost;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
@@ -79,7 +79,7 @@ public class MainApplication extends NavigationApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("io.batyr.rnn-with-expo.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("io.batyr.rnnwithexpo.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);
