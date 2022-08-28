@@ -27,7 +27,7 @@ yarn ios
 yarn android
 ```
 
----
+### Rename
 
 If you need to rename the app, do the following (based on [react-native-rename](https://github.com/junedomingo/react-native-rename)):
 
@@ -36,7 +36,10 @@ yarn rename "NewApp" -b com.yourcompany.newapp
 yarn ios:pods
 ```
 
-> Troubleshooting on Android. You can see that after running `rename` script, it doesn't change package name and imports for files under `newarchitecture` folder. You will need do that manually.
+⚠️ Troubleshooting on Android. You can see that after running `rename` script, it doesn't change package name and imports for files under `newarchitecture` folder. You will need do that manually:
+
+1. Open all `.java` files under `android/app/src/main/java/your/bundle/newarchitecture/` folder.
+2. Find all packages and imports which contain `io.batyr.rnnwithexpo` and change them to yours.
 
 ## What's inside
 
