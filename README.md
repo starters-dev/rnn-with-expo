@@ -39,7 +39,8 @@ yarn ios:pods
 ⚠️ Troubleshooting on Android. You can see that after running `rename` script, it doesn't change package name and imports for files under `newarchitecture` folder. You will need do that manually:
 
 1. Open all `.java` files under `android/app/src/main/java/your/bundle/newarchitecture/` folder.
-2. Find all packages and imports which contain `io.batyr.rnnwithexpo` and change them to yours.
+2. Open `MainApplication.java`.
+3. Find all packages and imports which contain `io.batyr.rnnwithexpo` and change them to yours.
 
 ## What's inside
 
