@@ -1,4 +1,4 @@
-package com.rnnstarter.newarchitecture.modules;
+package io.batyr.rnnwithexpo.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
