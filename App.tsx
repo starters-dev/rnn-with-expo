@@ -22,7 +22,7 @@ const Section: React.FC<
   return (
     <View style={S.sectionContainer}>
       <Text style={[S.sectionTitle, textStyle]}>{title}</Text>
-      <View>{children}</View>
+      <View style={S.p8}>{children}</View>
     </View>
   );
 };
@@ -40,7 +40,9 @@ const Main: ScreenComponent = ({componentId}) => {
     <SafeAreaView style={container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView contentInsetAdjustmentBehavior="automatic" style={container}>
-        <Section title="Expo">{Constants.sessionId}</Section>
+        <Section title="Expo">
+          <Text>Session ID: {Constants.sessionId}</Text>
+        </Section>
         <Section title="Navigation">
           <Button title="Push Settings" onPress={push} />
           <Button title="Show Settings" onPress={show} />
@@ -81,6 +83,7 @@ const Settings: ScreenComponent<SettingsProps> = ({componentId, type}) => {
 
 const S = StyleSheet.create({
   f1: {flex: 1},
+  p8: {padding: 8},
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
