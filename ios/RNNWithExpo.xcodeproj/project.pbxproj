@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNNWithExpoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNNWithExpoTests.m */; };
-		0C2CA7B428B99042002E4349 /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CA7B328B99042002E4349 /* file.swift */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RNNWithExpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNNWithExpo.a */; };
+		0C90576828BBD893009A3CBD /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C90576728BBD893009A3CBD /* file.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,8 +33,8 @@
 		00E356EE1AD99517003FC87E /* RNNWithExpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNNWithExpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNNWithExpoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNWithExpoTests.m; sourceTree = "<group>"; };
-		0C2CA7B228B99042002E4349 /* RNNWithExpo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNNWithExpo-Bridging-Header.h"; sourceTree = "<group>"; };
-		0C2CA7B328B99042002E4349 /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
+		0C90576728BBD893009A3CBD /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
+		0C90576928BBDE2B009A3CBD /* RNNWithExpo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNNWithExpo-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNNWithExpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNNWithExpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNNWithExpo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNNWithExpo/AppDelegate.mm; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				0C2CA7B328B99042002E4349 /* file.swift */,
-				0C2CA7B228B99042002E4349 /* RNNWithExpo-Bridging-Header.h */,
+				0C90576728BBD893009A3CBD /* file.swift */,
+				0C90576928BBDE2B009A3CBD /* RNNWithExpo-Bridging-Header.h */,
 			);
 			name = RNNWithExpo;
 			sourceTree = "<group>";
@@ -449,7 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				0C2CA7B428B99042002E4349 /* file.swift in Sources */,
+				0C90576828BBD893009A3CBD /* file.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				4F2E25EF0782BDAE4BEDF224 /* ExpoModulesProvider.swift in Sources */,
 			);
