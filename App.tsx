@@ -8,7 +8,7 @@
  * @format
  */
 
-import React from 'react';
+import React, {type PropsWithChildren} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -28,9 +28,11 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const Section: React.FC<{
-  title: string;
-}> = ({children, title}) => {
+const Section: React.FC<
+  PropsWithChildren<{
+    title: string;
+  }>
+> = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -74,9 +76,7 @@ const App = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Expo Modules">
-            Session Id: {Constants.sessionId}
-          </Section>
+          <Section title="Expo">{Constants.sessionId}</Section>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
