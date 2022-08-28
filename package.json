@@ -1,6 +1,6 @@
 {
   "name": "rnn-with-expo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Minimalistic React Native App Starter with React Native Navigation and Expo Modules.",
   "author": "Batyr <dev@batyr.io> (https://github.com/kanzitelli)",
   "homepage": "https://github.com/starters-dev/rnn-with-expo",
