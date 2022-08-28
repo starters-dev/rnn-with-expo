@@ -2,7 +2,7 @@
 
 This is a minimalistic starter with [React Native Navigation](https://github.com/wix/react-native-navigation) and [Expo Modules](https://github.com/expo/expo) set up and running together without any issues.
 
-Current [React Native](https://reactnative.dev) version is 0.69.5.
+[React Native](https://github.com/facebook/react-native) version is `0.69.5`. [Expo](https://github.com/expo/expo) version is `46.0.9`.
 
 ## Quickstart
 
