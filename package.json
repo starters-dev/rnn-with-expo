@@ -1,7 +1,10 @@
 {
-  "name": "rnnwithexpo",
-  "version": "0.0.1",
-  "private": true,
+  "name": "rnn-with-expo",
+  "version": "0.1.0",
+  "description": "Minimalistic React Native App Starter with React Native Navigation and Expo Modules.",
+  "author": "Batyr <dev@batyr.io> (https://github.com/kanzitelli)",
+  "homepage": "https://github.com/starters-dev/rnn-with-expo",
+  "private": false,
   "scripts": {
     "android": "yarn android:adb && npx react-native run-android",
     "android:release": "yarn android --variant release",
@@ -9,36 +12,49 @@
     "ios": "npx react-native run-ios",
     "ios:release": "yarn ios --configuration Release",
     "ios:pods": "npx pod-install",
-    "ios:pods:upd": "cd ios && pod install --repo-update && cd ..",
+    "ios:pods:ru": "cd ios && pod install --repo-update && cd ..",
     "start": "npx react-native start",
+    "rename": "npx react-native-rename",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --check ./src",
+    "format:write": "prettier --write ./src",
+    "release": "dotenv release-it"
   },
   "dependencies": {
-    "expo": "^44.0.6",
-    "react": "17.0.2",
-    "react-native": "0.67.3",
-    "react-native-navigation": "^7.26.0"
+    "expo": "^46.0.9",
+    "react": "18.0.0",
+    "react-native": "0.69.5",
+    "react-native-navigation": "^7.30.0-alpha.1",
+    "rnn-screens": "^0.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
-    "@types/react-native": "^0.66.15",
-    "@types/react-test-renderer": "^17.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
-    "@typescript-eslint/parser": "^5.7.0",
+    "@types/react-native": "^0.69.5",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "babel-jest": "^26.6.3",
-    "eslint": "^7.14.0",
+    "eslint": "^7.32.0",
     "jest": "^26.6.3",
-    "metro-react-native-babel-preset": "^0.66.2",
-    "react-test-renderer": "17.0.2",
+    "metro-react-native-babel-preset": "^0.70.3",
+    "patch-package": "^6.4.7",
+    "react-test-renderer": "18.0.0",
     "typescript": "^4.4.4"
   },
-  "resolutions": {
-    "@types/react": "^17"
-  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-navigation",
+    "react-native-navigation-with-expo",
+    "react-native-starter",
+    "react-native-template",
+    "expo-modules"
+  ],
   "jest": {
     "preset": "react-native",
     "moduleFileExtensions": [
@@ -49,5 +65,6 @@
       "json",
       "node"
     ]
-  }
+  },
+  "license": "MIT"
 }
