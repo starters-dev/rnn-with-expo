@@ -48,6 +48,8 @@ yarn ios:pods
 
 - [kanzitelli/rnn-starter](https://github.com/kanzitelli/rnn-starter) - is a more advanced starter that is powered by cli-rn, React Native Navigation, Expo Modules, RNN Screens, RN UI lib, MMKV, Mobx, Reanimated 2, Dark Mode, Localization, Notifications, Permissions, and much more.
 
+> Originally bootstrapped from [react-native-community/react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript).
+
 ## License
 
 This project is [MIT licensed](/LICENSE.md)
