@@ -7766,10 +7766,10 @@ rimraf@~2.6.2:
   dependencies:
     glob "^7.1.3"
 
-rnn-screens@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/rnn-screens/-/rnn-screens-0.3.0.tgz#bd40a6fed126b160739bde97a20c78c51ce33276"
-  integrity sha512-d+b2XQLHlBvp7fjoHZXXzLU/lOq03TOrq+MFj3QXt/aacg5WBgvZjumivJEYes2mYMfgHn1CYlsNVBYtf7qBvw==
+rnn-screens@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/rnn-screens/-/rnn-screens-0.3.1.tgz#94baaff279074dc0648b4820a64676c4981137fd"
+  integrity sha512-2x50CEXGZcBeZoTx9oCLQ6BGWa9Wxdck0VIJx7b560P85IaqKJs4h5Kz9aJUvgUi+nuWRyKbNjnRMI3OM4BKNw==
 
 rsvp@^4.8.4:
   version "4.8.5"
