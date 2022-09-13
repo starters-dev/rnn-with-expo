@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNNWithExpoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNNWithExpoTests.m */; };
+		0C2F7F4328D0B48E0015B2DD /* hermes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6DDCA028CBD41A00B5C005 /* hermes.xcframework */; };
+		0C2F7F4428D0B48E0015B2DD /* hermes.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6DDCA028CBD41A00B5C005 /* hermes.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C80B921A6F3F58F76C31292 /* libPods-RNNWithExpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNNWithExpo.a */; };
 		0C90576828BBD893009A3CBD /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C90576728BBD893009A3CBD /* file.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
@@ -29,10 +31,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0C2F7F4528D0B48E0015B2DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C2F7F4428D0B48E0015B2DD /* hermes.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* RNNWithExpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNNWithExpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNNWithExpoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNWithExpoTests.m; sourceTree = "<group>"; };
+		0C6DDCA028CBD41A00B5C005 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
 		0C90576728BBD893009A3CBD /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
 		0C90576928BBDE2B009A3CBD /* RNNWithExpo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNNWithExpo-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNNWithExpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNNWithExpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-RNNWithExpo.a in Frameworks */,
+				0C2F7F4328D0B48E0015B2DD /* hermes.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +126,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C6DDCA028CBD41A00B5C005 /* hermes.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-RNNWithExpo.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNNWithExpo-RNNWithExpoTests.a */,
@@ -219,6 +238,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				0C2F7F4528D0B48E0015B2DD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
