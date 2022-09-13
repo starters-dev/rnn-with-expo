@@ -62,7 +62,7 @@ yarn ios:pods
 ## Known issues
 
 - **[iOS]** _Hermes framework not found/loaded_. There are some cases when `hermes.framework` is not found/loaded in XCode with React Native 0.70. Check [this comment](https://github.com/facebook/react-native/issues/34601#issuecomment-1243232921) for potential solution.
-- **[iOS]** _Large title is not shown on 2nd+ tab_. This [issue](https://github.com/software-mansion/react-native-screens/issues/649) exists. So you can find the patch file for fixing that in `patches/react-native+0.70.0.patch`.
+- **[iOS]** _Large title is not shown on 2nd+ tab_. This [issue](https://github.com/software-mansion/react-native-screens/issues/649) exists. You can find the patch file for fixing that at `patches/react-native+0.70.0.patch`.
 - **[Android]** _Issue after renaming on Android_. This happens when you [rename](#rename) the app using `yarn rename` script. Check [Rename](#rename) section for possible solution.
 
 ## Other
