@@ -7643,10 +7643,10 @@ react-native-gradle-plugin@^0.70.2:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.2.tgz#b5130f2c196e27c4c5912706503d69b8790f1937"
   integrity sha512-k7d+CVh0fs/VntA2WaKD58cFB2rtiSLBHYlciH18ncaT4N/B3A4qOGv9pSCEHfQikELm6vAf98KMbE3c8KnH1A==
 
-react-native-navigation@^7.30.0-alpha.1:
-  version "7.30.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-7.30.0-alpha.1.tgz#13294d40ef81c0bb9866ee7b19d196b07d6fd704"
-  integrity sha512-G7Sq9d/sWHZ4oaJpuOTh5mAYo4ZPVoLv4JTD4ShgaB5MTyhO4FyF6i37SQE2F70QvGyu/PRJCT8+B3MmwfODlA==
+react-native-navigation@7.29:
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-7.29.0.tgz#8dfcfdd2822385bbfdee53f4e787b3158dd0d115"
+  integrity sha512-kDNaS54VBTlcUWfBmBRzk71Mau47mwktzoxGw3Pb2KPHCfwoEI5SyOAsx22PIgCzBXCK8vOxKrHCHYw/TnnQvQ==
   dependencies:
     hoist-non-react-statics "3.x.x"
     lodash "4.17.x"
