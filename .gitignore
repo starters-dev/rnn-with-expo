@@ -6,6 +6,7 @@
 #
 .env
 media/
+.vscode
 
 # Xcode
 #
